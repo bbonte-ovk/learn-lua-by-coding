@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/learn-lua-by-coding/static/css/main.ec1c4ceb.css",
+    "main.js": "/learn-lua-by-coding/static/js/main.f90c96f0.js",
+    "index.html": "/learn-lua-by-coding/index.html",
+    "main.ec1c4ceb.css.map": "/learn-lua-by-coding/static/css/main.ec1c4ceb.css.map",
+    "main.f90c96f0.js.map": "/learn-lua-by-coding/static/js/main.f90c96f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec1c4ceb.css",
+    "static/js/main.f90c96f0.js"
+  ]
+}

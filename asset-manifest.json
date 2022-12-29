@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/learn-lua-by-coding/static/css/main.ec1c4ceb.css",
-    "main.js": "/learn-lua-by-coding/static/js/main.f90c96f0.js",
+    "main.css": "/learn-lua-by-coding/static/css/main.d9492aac.css",
+    "main.js": "/learn-lua-by-coding/static/js/main.b7cea620.js",
     "index.html": "/learn-lua-by-coding/index.html",
-    "main.ec1c4ceb.css.map": "/learn-lua-by-coding/static/css/main.ec1c4ceb.css.map",
-    "main.f90c96f0.js.map": "/learn-lua-by-coding/static/js/main.f90c96f0.js.map"
+    "main.d9492aac.css.map": "/learn-lua-by-coding/static/css/main.d9492aac.css.map",
+    "main.b7cea620.js.map": "/learn-lua-by-coding/static/js/main.b7cea620.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec1c4ceb.css",
-    "static/js/main.f90c96f0.js"
+    "static/css/main.d9492aac.css",
+    "static/js/main.b7cea620.js"
   ]
 }

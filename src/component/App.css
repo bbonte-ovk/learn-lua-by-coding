@@ -1,7 +1,22 @@
-#lua-code-input {
+.component-app {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: 47% 6% 47%;
+  grid-template-rows: 80% 20%;
 }
 
-#lua-code-output {
-  background-color:lightgray;
-  border: 0;
+.lua-code-input {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.lua-code-output {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.problem {
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
 }

@@ -1,6 +1,12 @@
 import React from 'react';
-import "./App.css";
 import { load as luaVM } from "fengari-web";
+
+import "./App.css";
+
+// components
+import LuaEditor from './LuaEditor';
+import OutputLua from './OutputLua';
+import Problem from './Problem';
 
 const runlua = source => luaVM(source)();
 
@@ -13,24 +19,10 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="component-app">
-        <h1>Learn Lua by coding.</h1>
-        <textarea
-          id="lua-code-input"
-          type="text"
-          onChange={this.handleChange}
-          value={this.state.luaInput}
-        />
-        <button onClick={this.runLuaCode}>
-          Run
-        </button>
-        <h2>output:</h2>
-        <input
-          id="lua-code-output"
-          type="text"
-          value={this.state.luaOutput}
-          readOnly
-        />
-      </div>
+        <LuaEditor clickHandler={this.runLuaCode} changeHandler={this.handleChange} value={this.state.luaInput} />
+        <OutputLua value={this.state.luaOutput}/>
+        <Problem title='Problem #1 - toto' content="bla bla bla"/>
+      </div >
     );
   }
 

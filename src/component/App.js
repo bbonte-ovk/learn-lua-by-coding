@@ -19,15 +19,15 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="component-app">
-        <LuaEditor clickHandler={this.runLuaCode} changeHandler={this.handleChange} value={this.state.luaInput} />
-        <OutputLua value={this.state.luaOutput}/>
-        <Problem title='Problem #1 - toto' content="bla bla bla"/>
+        <LuaEditor clickHandler={this.runLuaCode} changeHandler={this.handleChange} />
+        <OutputLua value={this.state.luaOutput} />
+        <Problem title='Problem #1 - toto' content="bla bla bla" />
       </div >
     );
   }
 
   handleChange = (e) => {
-    this.setState({ luaInput: e.target.value });
+    this.setState({ luaInput: e });
   }
 
   runLuaCode = () => {
